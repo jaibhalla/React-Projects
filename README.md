@@ -1,2 +1,4 @@
 # React-Projects
-Trying to broaden the horizons 
+
+## What's the Plan? 
+My first react App - I created a simple TO-DO webpage. Inspired by rap-lord Wiz Khalifa 
