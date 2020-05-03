@@ -1,0 +1,345 @@
+.Trending-Main-Container {
+  width: 850px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 30px;
+  font-family: Roboto;
+  overflow-y: scroll;
+  padding-right: 1000px;
+}
+
+.Trending-Main-Container .Line-Divide {
+  position: absolute;
+  left: -10px;
+  top: 130px;
+  width: 90vw;
+  height: 1px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #e0e0e0;
+}
+
+.Trending-Main-Container .Category-Icon-Container {
+  width: 500px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Trending-Main-Container .Category-Icon-Container a {
+  text-decoration: none;
+}
+
+.Trending-Main-Container .Category-Icon-Container .Icon-Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -80px;
+  margin-top: 10px;
+}
+
+.Trending-Main-Container .Category-Icon-Container .Icon-Container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.Trending-Main-Container .Category-Icon-Container .Icon-Container h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #5f5f5f;
+}
+
+.Search-Main-Container {
+  width: 850px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 30px;
+  font-family: Roboto;
+  overflow-y: scroll;
+  padding-right: 1000px;
+}
+
+.Home-Main-Containter {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #282828;
+}
+
+.Home-Main-Containter img {
+  margin-bottom: 30px;
+  margin-left: -60px;
+}
+
+@media screen and (max-width: 900px) {
+  .Home-Main-Containter img {
+    width: 500px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Home-Main-Containter img {
+    width: 300px;
+    height: 70px;
+  }
+}
+
+.Home-Main-Containter h1, .Home-Main-Containter h2 {
+  margin-left: -30px;
+  font-weight: 400;
+}
+
+.Home-Main-Containter h1 span, .Home-Main-Containter h2 span {
+  color: #ff0100;
+}
+
+.Home-Main-Containter h1 {
+  margin-bottom: 20px;
+}
+
+.Video-Main-Container {
+  position: absolute;
+  left: 25px;
+  top: 80px;
+  width: 770px;
+  height: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.Video-Main-Container .Description-Container {
+  width: 100%;
+  height: 40%;
+  margin: 25px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.Video-Main-Container .Description-Container .profile-pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: lightblue;
+}
+
+.Video-Main-Container .Description-Container .Channel-Details {
+  margin: 0px 0px 0px 15px;
+}
+
+.Video-Main-Container .Description-Container .Channel-Details h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #030303;
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+}
+
+.Video-Main-Container .Description-Container .Channel-Details h6 {
+  margin: 0px 0px 20px 0px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  color: #6c6c6c;
+}
+
+.Video-Main-Container .Description-Container .Channel-Details p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #101010;
+  white-space: pre-line;
+}
+
+.Video-Main-Container .Video-Container {
+  width: 100%;
+  height: 510px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Video-Main-Container .Video-Container .yt-player {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
+
+.Video-Main-Container .Video-Container h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #030303;
+  margin: 10px 0px 15px 0px;
+}
+
+.Video-Main-Container .Video-Container h3 {
+  margin: 0px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6c6c6c;
+}
+
+.Video-Main-Container .Video-Container h5 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
+  color: #6e6e6e;
+  margin: 0px 0px 0px -15px;
+}
+
+.Video-Main-Container .Video-Container .second-line {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Video-Main-Container .Video-Container .second-line .reactions {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Video-Main-Container .Video-Container .second-line .reactions .buttons {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Video-Main-Container .Video-Container .second-line .reactions .lightBar {
+  margin: 10px 0px 0px 0px;
+  width: 105%;
+  height: 2px;
+  background-color: #cccccc;
+}
+
+.Video-Main-Container .Video-Container .second-line .reactions .lightBar .darkBar {
+  height: 2px;
+  background-color: #8f908f;
+}
+/*# sourceMappingURL=Pages.css.map */

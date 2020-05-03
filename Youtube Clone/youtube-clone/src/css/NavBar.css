@@ -1,0 +1,134 @@
+.NavBar-Open {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 2000px;
+  width: 240px;
+  -webkit-transition: left 0.2s ease-in;
+  transition: left 0.2s ease-in;
+  -webkit-box-shadow: 5px 0px 10px #e6e6e6;
+          box-shadow: 5px 0px 10px #e6e6e6;
+  background-color: white;
+  margin: 0px;
+}
+
+.NavBar-Open .backDrop {
+  position: absolute;
+  top: 0px;
+  left: 240px;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.NavBar-Open .NavBar-Button-Container {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+
+.NavBar-Open .NavBar-Button-Container .line-divide {
+  height: 6px;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #e5e5e5;
+}
+
+.NavBar-Open .NavBar-Button-Container .line-divide2 {
+  content: "";
+  height: 6px;
+  width: 100%;
+  background-color: white;
+}
+
+.NavBar-Open .NavBar-Button-Container a {
+  width: 100%;
+  height: 45px;
+  text-decoration: none;
+  color: #2a2a2a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.NavBar-Open .NavBar-Button-Container svg {
+  margin-left: 28px;
+}
+
+.NavBar-Open .NavBar-Button-Container span {
+  margin-left: 37px;
+  font-weight: 500;
+}
+
+.NavBar-Open .NavBar-Button-Container .title-normal {
+  margin-left: 37px;
+  font-weight: 400;
+}
+
+.NavBar-Open .NavBar-Button-Container .title-bold {
+  margin-left: 37px;
+  font-weight: 500;
+}
+
+.NavBar-Open .NavBar-Button-Container .NavBar-Button-white {
+  background-color: white;
+}
+
+.NavBar-Open .NavBar-Button-Container .NavBar-Button-white:hover {
+  background-color: #eee;
+}
+
+.NavBar-Open .NavBar-Button-Container .NavBar-Button-grey {
+  background-color: #e5e5e5;
+}
+
+.NavBar-Open .NavBar-Button-Container h5 {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #606060;
+}
+
+.NavBar-Open .NavBar-Button-Container h4 {
+  margin-top: -30px;
+  font-size: 25px;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.NavBar-Close {
+  position: fixed;
+  top: 0px;
+  left: -240px;
+  height: 2000px;
+  width: 240px;
+  -webkit-transition: left 0.2s ease-in;
+  transition: left 0.2s ease-in;
+  background-color: white;
+}
+
+.NavBar-Close .NavBar-Button-Container {
+  display: none;
+}
+/*# sourceMappingURL=NavBar.css.map */

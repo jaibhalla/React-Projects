@@ -1,0 +1,92 @@
+$youtubeRed: #FF0000
+
+.Header-Main-Container
+    position: fixed
+    left: 0px 
+    right: 0px
+    top: 0px
+    height: 55px
+    background-color: white
+
+    
+    .SearchBar-Container 
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-55%,-50%)
+        height: 33px
+        width: 50%
+        
+        @media screen and ( max-width:770px )
+            width: 30%
+        
+        @media screen and ( max-width:520px )
+            width: 20%
+       
+        input
+            width: 90%
+            height: 33px
+            outline: none
+            padding: 10px
+            box-sizing: border-box
+            border: 1px solid #d3d3d3
+            border-radius: 2px 0px 0px 2px
+            font-size: 15px
+            font-weight: 400
+            color: #111111
+            
+        input:focus
+            border: 1.3px solid #167ac6
+
+        ::placeholder
+            font-size: 15px
+            font-weight: 400
+            color: #757575
+
+        button
+            position: absolute
+            height: 33px
+            width: 65px
+            background-color: #f8f8f8
+            border: 1px solid #d3d3d3
+            border-left: none
+            border-radius: 0px 2px 2px 0px
+            outline: none
+            
+            &:hover 
+                background-color: #eeeeee
+
+            img
+                position: absolute
+                left: 50%
+                top: 50%
+                width: 15px
+                transform: translate(-50%,-50%)
+
+
+    .TopRight-Container
+        position: absolute
+        right: 27px
+        top: 0px
+        display: flex 
+        flex-direction: row
+        justify-content: flex-end
+        align-items: center
+        width: 230px
+        height: 100%
+        // background-color: pink
+
+        #placeholder 
+            width: 33px
+            height: 33px
+            border-radius: 100%
+            background-color: $youtubeRed
+    
+        
+
+                
+
+        
+
+
+            
